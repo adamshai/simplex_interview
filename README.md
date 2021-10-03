@@ -22,7 +22,6 @@ docker-compose up
 Request:
 ```
 curl http://127.0.0.1:5000/api/quote?from_currency_code=USD&to_currency_code=EUR&amount=100
-
 ```
 Response:
 ```
