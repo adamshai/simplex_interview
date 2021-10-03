@@ -1,6 +1,12 @@
 # simplex_interview
 Create an API to get a quote for exchange rate between USD, ILS and EUR
 
+## API
+|HTTP|URL|Request Parameters|Response Parameters
+|----|---|----------|--------------|
+|GET|/api/quote/|from_currency_code - one of USD\|ILS\|EUR<br />to_currency_code - one of USD\|ILS\|EUR<br />amount - number of cents to convert|exchange_rate<br />currency_code<br />amount<br />provider_name<br />|
+
+
 ## Setup (once)
 ```
 docker-compose build
